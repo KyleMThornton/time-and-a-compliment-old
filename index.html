@@ -8,12 +8,20 @@
   <link rel="stylesheet" href="styles.css" />
   <title>Time and a Compliment</title>
   <script src="scripts.js"></script>
+  <script src="compliments.js"></script>
+  <script>
+    function start() {
+      startTime();
+      fetchRandomCompliment();
+    }
+  </script>
 </head>
 
-<body onload="startTime()"></body>
+<body onload="start()"></body>
 
 It is now:
 <div id="timeText"></div>
+<div id="complimentText"></div>
 
 </body>
 
