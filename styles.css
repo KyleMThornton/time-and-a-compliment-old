@@ -1,4 +1,29 @@
 body {
-  border: 1px solid powderblue;
+  border: 1px solid black;
   padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#timeText {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#complimentText {
+  border: 2px solid powderblue;
+  display: inline;
+  font-size: 20px;
+}
+
+#refreshButton {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#refreshButton:hover {
+  color: orange;
 }

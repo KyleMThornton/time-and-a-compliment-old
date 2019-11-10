@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Time and a Compliment</title>
   <script src="scripts.js"></script>
   <script src="compliments.js"></script>
+  <script src="https://kit.fontawesome.com/e5a369264e.js" crossorigin="anonymous"></script>
   <script>
     function start() {
       startTime();
@@ -22,6 +24,9 @@
 It is now:
 <div id="timeText"></div>
 <div id="complimentText"></div>
+<div id="refreshButton">
+  <i class="fas fa-redo" onclick="fetchRandomCompliment()"></i>
+</div>
 
 </body>
 
