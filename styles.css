@@ -14,7 +14,7 @@ body {
 }
 
 #complimentText {
-  border: 2px solid powderblue;
+  /* border: 2px solid powderblue; */
   display: inline;
   font-size: 20px;
 }
@@ -26,4 +26,5 @@ body {
 
 #refreshButton:hover {
   color: orange;
+  cursor: pointer;
 }
