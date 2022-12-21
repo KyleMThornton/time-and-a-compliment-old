@@ -23,6 +23,10 @@ html {
   background-size: cover;
 }
 
+p {
+  padding-bottom: 2rem;
+}
+
 #timeText {
   font-size: 150px;
   font-weight: bold;
@@ -32,7 +36,7 @@ html {
 #complimentText {
   display: inline;
   font-size: 50px;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 #refreshButton {
