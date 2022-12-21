@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 body {
   /* border: 1px solid black; */
   text-align: center;
@@ -22,21 +26,37 @@ html {
 #timeText {
   font-size: 150px;
   font-weight: bold;
-  padding: 10px;
   font-family: "Times New Roman", Times, serif;
 }
 
 #complimentText {
   display: inline;
   font-size: 50px;
+  padding-top: 3rem;
 }
 
 #refreshButton {
-  padding-top: 20px;
+  padding-top: 3rem;
   font-size: 50px;
 }
 
 #refreshButton:hover {
   color: orange;
   cursor: pointer;
+}
+
+@media only screen and (max-device-width: 480px) {
+  
+  #timeText {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  #complimentText {
+    font-size: 3rem;
+  }
+
 }
